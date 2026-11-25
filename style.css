@@ -4117,8 +4117,8 @@ h1, h2 { letter-spacing: -0.015em; }
 
 /* Selo do hero: maior, para o texto do anel ficar legível */
 @media (min-width: 1101px) {
-  .hero .stamp-wrapper { width: 164px; height: 164px; }
-  .hero .stamp-txt { width: 164px; height: 164px; }
+  .hero .stamp-wrapper { width: 184px; height: 184px; }
+  .hero .stamp-txt { width: 184px; height: 184px; }
 }
 @media (min-width: 821px) and (max-width: 1100px) {
   .hero .stamp-wrapper { width: 150px; height: 150px; }
