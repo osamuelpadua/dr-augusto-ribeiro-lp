@@ -4154,3 +4154,6 @@ h1, h2 { letter-spacing: -0.015em; }
 .hero-header .logo { height: 58px; width: auto; }
 @media (max-width: 820px) { .hero-header .logo { height: auto; width: min(236px, 66%); } }
 @media (max-width: 480px) { .hero-header .logo { height: auto; width: min(220px, 64%); } }
+.hero-header .logo { height: 48px; width: auto; }
+@media (max-width: 820px) { .hero-header .logo { height: auto; width: min(200px, 58%); } }
+@media (max-width: 480px) { .hero-header .logo { height: auto; width: min(190px, 56%); } }
