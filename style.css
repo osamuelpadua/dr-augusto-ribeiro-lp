@@ -4136,3 +4136,12 @@ h1, h2 { letter-spacing: -0.015em; }
 .profile-social-btn:focus-visible .profile-social-icon {
   filter: brightness(0) saturate(100%) invert(9%) sepia(16%) saturate(1500%) hue-rotate(115deg) brightness(95%);
 }
+
+/* Bloco da maca: imagem com mais destaque (coluna maior e mais alta) */
+@media (min-width: 821px) {
+  #flexo-distracao .condition-inner { grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr); max-width: 1280px; }
+  #flexo-distracao .condition-media .condition-img { aspect-ratio: 1 / 1; object-position: 50% 60%; }
+}
+@media (max-width: 820px) {
+  #flexo-distracao .condition-media .condition-img { aspect-ratio: 4 / 3.4; }
+}
