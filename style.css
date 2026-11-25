@@ -4157,3 +4157,10 @@ h1, h2 { letter-spacing: -0.015em; }
 .hero-header .logo { height: 48px; width: auto; }
 @media (max-width: 820px) { .hero-header .logo { height: auto; width: min(200px, 58%); } }
 @media (max-width: 480px) { .hero-header .logo { height: auto; width: min(190px, 56%); } }
+
+/* Rodapé no mobile: copyright em duas linhas (os dois registros não cabem numa linha) */
+@media (max-width: 820px) {
+  .site-footer-copy { white-space: normal; font-size: 12.5px; line-height: 1.6; letter-spacing: 0; text-align: center; }
+  .site-footer-sep { display: none; }
+  .site-footer-reg { display: block; }
+}
