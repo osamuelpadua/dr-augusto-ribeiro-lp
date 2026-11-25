@@ -4145,3 +4145,8 @@ h1, h2 { letter-spacing: -0.015em; }
 @media (max-width: 820px) {
   #flexo-distracao .condition-media .condition-img { aspect-ratio: 4 / 3.4; }
 }
+
+/* Logo do hero um pouco maior (a assinatura tem tagline, o nome ficava pequeno) */
+.hero-header .logo { height: 56px; width: auto; }
+@media (max-width: 820px) { .hero-header .logo { height: auto; width: min(320px, 86%); } }
+@media (max-width: 480px) { .hero-header .logo { height: auto; width: min(300px, 86%); } }
