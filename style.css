@@ -4129,3 +4129,10 @@ h1, h2 { letter-spacing: -0.015em; }
   .hero .stamp-txt { width: 128px; height: 128px; }
 }
 @media (min-width: 821px) { .card h3 { font-size: 20px; } }
+
+/* Redes sociais do perfil: no hover (fundo Lima) o ícone fica Floresta Noite */
+.profile-social-icon { transition: filter 0.25s ease; }
+.profile-social-btn:hover .profile-social-icon,
+.profile-social-btn:focus-visible .profile-social-icon {
+  filter: brightness(0) saturate(100%) invert(9%) sepia(16%) saturate(1500%) hue-rotate(115deg) brightness(95%);
+}
